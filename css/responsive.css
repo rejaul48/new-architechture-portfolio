@@ -1,0 +1,29 @@
+
+/* mobile and tablate responsive menubar  */
+@media screen and (max-width: 576px){
+    .navbar{
+        margin-top: 5px;
+    }
+    .menubar{
+        display: none;
+    }
+    .hambar{
+        display: block;
+        align-items: center;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .navbar{
+        margin-top: 5px;
+    }
+    .menubar{
+        display: none;
+    }
+    .hambar{
+        display: block;
+        align-items: center;
+        margin-top: 5px;
+    }
+}
