@@ -1,9 +1,8 @@
 
 /* mobile and tablate responsive menubar  */
 @media screen and (max-width: 576px){
-    .navbar{
-        margin-top: 5px;
-    }
+    /* nav and menubar */
+   
     .menubar{
         display: none;
     }
@@ -11,13 +10,22 @@
         display: block;
         align-items: center;
         margin-top: 5px;
+    }
+    /* hero section */
+    .hero{
+        margin-top: 50px;
+    }
+    .hero-title{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .hero-img{
+        height: 300px;
     }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px){
-    .navbar{
-        margin-top: 5px;
-    }
+   
     .menubar{
         display: none;
     }
@@ -26,4 +34,15 @@
         align-items: center;
         margin-top: 5px;
     }
+    /* hero section */
+    .hero {
+        margin-top: 50px;
+    }
+    .hero-title{
+        font-size: 45px;
+    }
+    .hero-img{
+        height: 480px;
+    }
+    
 }
