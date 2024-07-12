@@ -55,7 +55,7 @@
     display: none;
 }
 
-.btn-primary{
+.btn-primary {
     display: inline-block;
     padding: 15px;
     border-radius: 8px;
@@ -64,32 +64,36 @@
     color: #fff;
     background: rgb(255, 144, 14);
 }
-.section-title{
+
+.section-title {
     font-size: 38px;
     font-weight: 700;
-    line-height: 38px;
+    line-height: 45px;
 }
-.description{
+
+.description {
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
     padding: 18px 0px;
 }
+
 /* shared styles end */
 
 /* header area start*/
 /* navbar */
-header{
+header {
     background-color: rgba(255, 144, 14, 0.1);
     padding: 25px 0px 45px 0px;
 }
+
 .web-logo {
     font-size: 35px;
     font-weight: 700;
     line-height: 53px;
 }
 
- 
+
 .menubar ul {
     gap: 35px;
 }
@@ -121,7 +125,7 @@ header{
 /* hero area */
 .hero {
     margin-top: 100px;
-     
+
 }
 
 .hero-title {
@@ -138,7 +142,8 @@ header{
     margin: 0 auto;
     padding: 18px 0px;
 }
-.hero-img{
+
+.hero-img {
     width: 100%;
     height: 600px;
     border-radius: 8px;
@@ -148,24 +153,89 @@ header{
     background-position: center center;
     margin-top: 50px;
 }
+
 /* header area end*/
 
 /* main style start*/
-.feature-seciton{
+.feature-seciton {
     gap: 70px;
     padding: 45px 0px;
 }
+
 .feature-left,
-.feature-right{
+.feature-right,
+.service-left,
+.service-right {
     width: 50%;
 }
-.feature-left img{
+
+.feature-left img {
     width: 100%;
     height: auto;
 }
-.feature-left{
+
+.feature-left {
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(2, 1fr);
+}
+
+/* service section */
+.service-section{
+    gap: 130px;
+    margin-top: 120px;
+}
+.service-left-head h3 {
+    border-left: 5px solid #FF900E;
+    padding-left: 8px;
+}
+
+.service-card {
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+.service-card:hover h3{
+    font-size: 21px;
+    cursor: pointer;
+    line-height: 23px;
+    transition: all 0.3s ease-in-out;
+}
+.service-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.service-right{
+    position: relative;
+    height: 950px;
+    background-image: url(../images/architect.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.experience{
+    display: inline-block;
+    padding: 35px 25px;
+    background: #FF900E;
+    border-radius: 2px;
+    position: absolute;
+    top: 93%;
+    left: -18%;
+}
+.experience h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #fff;
+}
+.experience p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #fff;
 }
 /* main style end */

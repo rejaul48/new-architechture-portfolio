@@ -40,6 +40,28 @@
         order: -1;
         width: 100%;
     }
+
+    /* service section */
+    .service-section{
+       display: flex;
+       flex-direction: column;
+        margin-top: 30px;
+        gap: 24px;
+    }
+    .service-left,.service-right{
+        width: 100%;
+    }
+    .service-card:hover h3{
+       font-size: 20px;
+    }
+    .service-right{
+        height: 350px;
+    
+    }
+    .experience{
+        left: 0%;
+        top: 78%;
+    }
 }
 
 /* tablate/mid width screen responsive */
@@ -73,4 +95,26 @@
     .feature-left{
         gap: 24px;
     }
+       /* service section */
+       .service-section{
+        display: flex;
+        flex-direction: column;
+         margin-top: 30px;
+         gap: 24px;
+     }
+     .service-left,.service-right{
+         width: 100%;
+     }
+     .service-card:hover h3{
+        font-size: 20px;
+     }
+     .service-right{
+         height: 350px;
+     
+     }
+     .experience{
+         left: 0%;
+         top: 78%;
+     }
+
 }
