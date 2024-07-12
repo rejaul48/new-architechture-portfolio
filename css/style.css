@@ -64,7 +64,17 @@
     color: #fff;
     background: rgb(255, 144, 14);
 }
-
+.section-title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.description{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 18px 0px;
+}
 /* shared styles end */
 
 /* header area start*/
@@ -139,3 +149,23 @@ header{
     margin-top: 50px;
 }
 /* header area end*/
+
+/* main style start*/
+.feature-seciton{
+    gap: 70px;
+    padding: 45px 0px;
+}
+.feature-left,
+.feature-right{
+    width: 50%;
+}
+.feature-left img{
+    width: 100%;
+    height: auto;
+}
+.feature-left{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* main style end */

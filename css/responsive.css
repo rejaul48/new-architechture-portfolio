@@ -1,5 +1,5 @@
 
-/* mobile and tablate responsive menubar  */
+/* mobile responsive */
 @media screen and (max-width: 576px){
     /* nav and menubar */
    
@@ -22,8 +22,27 @@
     .hero-img{
         height: 300px;
     }
+    .feature-seciton{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .feature-left{
+        width: 100%;
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .feature-right{
+        order: -1;
+        width: 100%;
+    }
 }
 
+/* tablate/mid width screen responsive */
 @media screen and (min-width: 576px) and (max-width: 992px){
    
     .menubar{
@@ -44,5 +63,14 @@
     .hero-img{
         height: 480px;
     }
+
+    /* main area */
+    .section-title{
+        font-size: 32px;
+        line-height: 35px;
+    }
     
+    .feature-left{
+        gap: 24px;
+    }
 }
