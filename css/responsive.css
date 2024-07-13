@@ -1,120 +1,199 @@
-
 /* mobile responsive */
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
     /* nav and menubar */
-   
-    .menubar{
+
+    .menubar {
         display: none;
     }
-    .hambar{
+
+    .hambar {
         display: block;
         align-items: center;
         margin-top: 5px;
     }
+
     /* hero section */
-    .hero{
+    .hero {
         margin-top: 50px;
     }
-    .hero-title{
+
+    .hero-title {
         font-size: 35px;
         line-height: 45px;
     }
-    .hero-img{
+
+    .hero-img {
         height: 300px;
     }
-    .feature-seciton{
+
+    .feature-seciton {
         display: flex;
         flex-direction: column;
     }
-    .section-title{
+
+    .section-title {
         font-size: 30px;
         line-height: 35px;
     }
-    .feature-left{
+
+    .feature-left {
         width: 100%;
         display: grid;
         gap: 24px;
         grid-template-columns: repeat(2, 1fr);
     }
-    .feature-right{
+
+    .feature-right {
         order: -1;
         width: 100%;
     }
 
     /* service section */
-    .service-section{
-       display: flex;
-       flex-direction: column;
+    .service-section {
+        display: flex;
+        flex-direction: column;
         margin-top: 30px;
         gap: 24px;
     }
-    .service-left,.service-right{
+
+    .service-left,
+    .service-right {
         width: 100%;
     }
-    .service-card:hover h3{
-       font-size: 20px;
+
+    .service-card:hover h3 {
+        font-size: 20px;
     }
-    .service-right{
+
+    .service-right {
         height: 350px;
-    
+
     }
-    .experience{
+
+    .experience {
         left: 0%;
         top: 78%;
     }
+
+
+    /* some facts section */
+    .facts-card-container {
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fact-box {
+        width: 170px;
+        height: 170px;
+        padding: 8px;
+    }
+
+    /* our sponsor */
+    .sponsor-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsor-description{
+        width: 95%;
+    }
+    .sponsor-container img{
+        width: 130px;
+        height: 40px; 
+    }
+ 
 }
 
 /* tablate/mid width screen responsive */
-@media screen and (min-width: 576px) and (max-width: 992px){
-   
-    .menubar{
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .menubar {
         display: none;
     }
-    .hambar{
+
+    .hambar {
         display: block;
         align-items: center;
         margin-top: 5px;
     }
+
     /* hero section */
     .hero {
         margin-top: 50px;
     }
-    .hero-title{
+
+    .hero-title {
         font-size: 45px;
     }
-    .hero-img{
+
+    .hero-img {
         height: 480px;
     }
 
     /* main area */
-    .section-title{
+    .section-title {
         font-size: 32px;
         line-height: 35px;
     }
-    
-    .feature-left{
+
+    .feature-left {
         gap: 24px;
     }
-       /* service section */
-       .service-section{
+
+    /* service section */
+    .service-section {
         display: flex;
         flex-direction: column;
-         margin-top: 30px;
-         gap: 24px;
-     }
-     .service-left,.service-right{
-         width: 100%;
-     }
-     .service-card:hover h3{
+        margin-top: 30px;
+        gap: 24px;
+    }
+
+    .service-left,
+    .service-right {
+        width: 100%;
+    }
+
+    .service-card:hover h3 {
         font-size: 20px;
-     }
-     .service-right{
-         height: 350px;
-     
-     }
-     .experience{
-         left: 0%;
-         top: 78%;
-     }
+    }
+
+    .service-right {
+        height: 350px;
+
+    }
+
+    .experience {
+        left: 0%;
+        top: 78%;
+    }
+
+    /* some facts section */
+    .facts-card-container {
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fact-box {
+        width: 280px;
+        height: 280px;
+        padding: 45px;
+
+
+    }
+       /* our sponsor */
+       .sponsor-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .sponsor-description{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .sponsor-container img{
+        width: 130px;
+        height: 40px;
+    
+        
+        
+    }
+
+ 
 
 }
